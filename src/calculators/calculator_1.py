@@ -1,5 +1,5 @@
-from typing import Dict
 from flask import request as FlaskRequest
+from typing import Dict
 
 class Calculator1:
     """
