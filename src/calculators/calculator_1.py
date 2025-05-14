@@ -11,7 +11,7 @@ class Calculator1:
     * Por fim, é somado esses 3 valores e entregue o resultado.
     """
 
-    def calculate(self, request: FlaskRequest) -> Dict:
+    def calculate(self, request: FlaskRequest) -> Dict: # type: ignore
         body = request.json
         input_data = self.__validate_body(body)
         splited_number = input_data / 3
